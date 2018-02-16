@@ -1,0 +1,85 @@
+@media screen and (min-width: 769px){
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal 16px;
+  }
+  
+  body {
+      background-image: linear-gradient( to bottom, #fff, #808080, #fff);
+  }
+  
+    #about {
+      border: 4px #d3d3d3;   
+  
+    }
+      .header img {
+        float: left;
+        width: 50px;
+        height: auto;
+      }
+  
+      .header h1 {
+        position: relative;
+        top: 25px;
+        left: 10px;
+      }
+  
+      .logo {
+        width: 50px;
+        height: auto;
+        border: 1px #000000;
+      }
+  
+      h1 {
+        color: #0b4b14;
+        padding: 0;
+      }
+  
+      .intro {
+        border: 1px #000000;
+      }
+  
+      .name {
+        font-weight: bolder;
+      }
+  
+    .gallery {
+      margin: 5px;
+      float: left;
+      }
+    
+      .gallery > div {
+        position: relative;
+        float: left;
+        padding: 5px;
+      }
+    
+      .gallery > div > img {
+        display: block;
+        transition: .1s transform;
+        transform: translateZ(0);
+      }
+    
+      .gallery > div:hover {
+        z-index: 1;
+      }
+    
+      .gallery > div:hover > img {
+        transform: scale(1.7,1.7);
+        transition: .3s transform;
+      }
+  
+      .gallery img {
+        box-shadow: 0 1px 2px rgba(0,0,0,.3);
+        border: 5px #ffa500;
+        border-radius: 4px 0 0;
+      }
+  
+      .desc{
+        padding: 15px;
+        text-align: center;
+        border: 1px solid #808080;
+        border-radius: 4px;
+        background: #fff;
+      }
+  }

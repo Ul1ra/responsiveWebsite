@@ -1,0 +1,68 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal 16px;
+}
+
+body {
+    color: #555;
+    background: #e5e5e5;
+    max-width: 1000px;
+}
+
+#about {
+    border: 4px #d3d3d3;   
+
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    border: 1px #000000;
+}
+
+h1 {
+    color: #00008b;
+    padding: 0;
+}
+
+.intro {
+    border: 1px #000000;
+}
+
+.name {
+    font-weight: bolder;
+}
+
+.gallery {
+    width: auto;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  .gallery > div {
+    position: relative;
+    float: left;
+    padding: 5px;
+  }
+  
+  .gallery > div > img {
+    display: block;
+    width: 500px;
+    transition: .1s transform;
+    transform: translateZ(0);
+  }
+  
+  .gallery > div:hover {
+    z-index: 1;
+  }
+  
+  .gallery > div:hover > img {
+    transform: scale(1.7,1.7);
+    transition: .3s transform;
+  }
+
+  img {
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    border: 5px #ffa500;
+    border-radius: 4px 0 0;
+  }
